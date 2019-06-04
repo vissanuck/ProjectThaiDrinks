@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorPr">#748BA7</color>
+    <color name="colorGreen">#228B22</color>
+    <color name="colordarkgrey">#2F4F4F</color>
+    <color name="colorwhite">#BBBBBB</color>
+    <color name="colorchoco">#A0522D</color>
+    <color name="colorperu">#CD853F</color>
+    <color name="colorchocblck">#8B4513</color>
+    <color name="colorinput">#FFE4C4</color>
+    <color name="colormaroon">#9D0782</color>
+    <color name="colorneoal">#DE6161</color>
+    <color name="colorblue">#A044FF</color>
+    <color name="colormaroon2">#E060B5</color>
+    <color name="colororiblue">#2657eb</color>
+    <color name="colorneoal2">#D16060</color>
+
+
+</resources>

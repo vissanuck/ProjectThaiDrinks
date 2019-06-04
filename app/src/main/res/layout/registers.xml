@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgcolorpop"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:text="THAI DRINKS"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                app:srcCompat="@mipmap/camera" />
+
+            <TextView
+                android:id="@+id/addimage"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:text="Add Picture" />
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:background="@drawable/input"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Full Name"
+                android:inputType="textPersonName" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="-20dp"
+            android:layout_marginBottom="-20dp"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <EditText
+                android:id="@+id/phone"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_weight="1"
+                android:background="@drawable/input"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Phone No"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/age"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_weight="1"
+                android:background="@drawable/input"
+                android:ems="10"
+
+                android:gravity="center"
+                android:hint="Age"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <EditText
+                android:id="@+id/location"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/input"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Accommodation"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/input"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Email"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/input"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Password"
+                android:inputType="textPassword" />
+
+            <CheckBox
+                android:id="@+id/cb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="I accept terms and conditions" />
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_btn"
+                android:text="SUBMIT" />
+
+            <TextView
+                android:id="@+id/tvregister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="Already Register" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
